@@ -1,0 +1,32 @@
+{
+  "cod-missao": "diamante vermelho",
+  "versao": 2,
+  "edificio": ["Entrada", "Corredor B", "Sala de Projeção", "Laboratório Biológico", "Escada Lateral",
+  "Depósito", "Sala de Equipamentos", "Sala de Controle Secundária", "Refeitório", 
+  "Elevador", "Telhado"],
+  "ligacoes": [
+    ["Entrada", "Corredor B"],
+    ["Corredor B", "Sala de Projeção"],
+    ["Corredor B", "Laboratório Biológico"],
+    ["Corredor B", "Escada Lateral"],
+    ["Escada Lateral", "Depósito"],
+    ["Depósito", "Sala de Equipamentos"],
+    ["Sala de Equipamentos", "Sala de Controle Secundária"],
+    ["Sala de Controle Secundária", "Refeitório"],
+    ["Refeitório", "Elevador"],
+    ["Elevador", "Telhado"]
+  ],
+  "inimigos": [
+    {"nome": "infiltrator", "poder": 12, "divisao": "Sala de Projeção"},
+    {"nome": "guard-chief", "poder": 18, "divisao": "Refeitório"},
+    {"nome": "sniper", "poder": 25, "divisao": "Telhado"},
+    {"nome": "technician", "poder": 8, "divisao": "Sala de Controle Secundária"}
+  ],
+  "entradas-saidas": ["Entrada", "Elevador", "Telhado"],
+  "alvo": {"divisao": "Laboratório Biológico", "tipo": "amostra secreta"},
+  "itens": [
+    {"divisao": "Depósito", "pontos-recuperados": 25, "tipo": "kit de vida"},
+    {"divisao": "Refeitório", "pontos-recuperados": 15, "tipo": "kit de vida"},
+    {"divisao": "Escada Lateral", "pontos-extra": 20, "tipo": "colete"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "cod-missao": "pata de coelho mini",
+  "versao": 1,
+  "edificio": ["Entrada", "Sala", "Corredor", "Laboratório", "Wc", "Cozinha"],
+  "ligacoes": [
+    ["Entrada", "Sala"],
+    ["Sala", "Corredor"],
+    ["Corredor", "Laboratório"],
+    ["Wc", "Cozinha"],
+    ["Cozinha", "Corredor"],
+    ["Corredor", "Wc"]
+  ],
+  "inimigos": [
+    {"nome": "badguy1", "poder": 5, "divisao": "Corredor"},
+    {"nome": "badguy2", "poder": 10, "divisao": "Wc"}
+  ],
+  "entradas-saidas": ["Entrada", "Laboratório", "Sala"],
+  "alvo": {"divisao": "Laboratório", "tipo": "científico"},
+  "itens": [
+    {"divisao": "Sala", "pontos-recuperados": 10, "tipo": "kit de vida"},
+    {"divisao": "Sala", "pontos-recuperados": 10, "tipo": "kit de vida"},
+    {"divisao": "Corredor", "pontos-extra": 15, "tipo": "colete"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "cod-missao": "tempestade negra",
+  "versao": 2,
+  "edificio": ["Dock", "Sala de Motores", "Corredor Central", "Camarote", "Escada Lateral", "Sala de Comunicação", "Ponte de Comando"],
+  "ligacoes": [
+    ["Dock", "Sala de Motores"],
+    ["Sala de Motores", "Corredor Central"],
+    ["Corredor Central", "Camarote"],
+    ["Camarote", "Escada Lateral"],
+    ["Escada Lateral", "Sala de Comunicação"],
+    ["Sala de Comunicação", "Ponte de Comando"]
+  ],
+  "inimigos": [
+    {"nome": "pirata1", "poder": 12, "divisao": "Dock"},
+    {"nome": "pirata2", "poder": 18, "divisao": "Ponte de Comando"},
+    {"nome": "hacker", "poder": 25, "divisao": "Sala de Comunicação"}
+  ],
+  "entradas-saidas": ["Dock", "Escada Lateral", "Ponte de Comando"],
+  "alvo": {"divisao": "Sala de Comunicação", "tipo": "transmissor"},
+  "itens": [
+    {"divisao": "Sala de Motores", "pontos-recuperados": 25, "tipo":"kit de vida"},
+    {"divisao": "Corredor Central", "pontos-extra": 20, "tipo": "colete"}
+  ]
+}

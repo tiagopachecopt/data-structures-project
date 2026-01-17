@@ -1,0 +1,30 @@
+{
+  "cod-missao": "diamante vermelho",
+  "versao": 1,
+  "edificio": ["Entrada", "Corredor A", "Sala de Reuniões", "Laboratório Químico", "Escada Principal", 
+  "Armazém", "Escritório", "Sala de Controle", "Cafeteria", 
+  "Escada de Serviço", "Terraço"],
+  "ligacoes": [
+    ["Entrada", "Corredor A"],
+    ["Corredor A", "Sala de Reuniões"],
+    ["Corredor A", "Laboratório Químico"],
+    ["Corredor A", "Escada Principal"],
+    ["Escada Principal", "Armazém"],
+    ["Armazém", "Sala de Controle"],
+    ["Sala de Controle", "Cafeteria"],
+    ["Cafeteria", "Escada de Serviço"],
+    ["Escada de Serviço", "Terraço"]
+  ],
+  "inimigos": [
+    {"nome": "agentX", "poder": 10, "divisao": "Sala de Reuniões"},
+    {"nome": "sniper", "poder": 20, "divisao": "Terraço"},
+    {"nome": "guard1", "poder": 5, "divisao": "Laboratório Químico"},
+    {"nome": "guard2", "poder": 15, "divisao": "Cafeteria"}
+  ],
+  "entradas-saidas": ["Entrada", "Escada de Serviço", "Terraço"],
+  "alvo": {"divisao": "Laboratório Químico", "tipo": "documento confidencial"},
+  "itens": [
+    {"divisao": "Armazém", "pontos-recuperados": 30, "tipo": "kit de vida"},
+    {"divisao": "Escada Principal", "pontos-extra": 10, "tipo": "colete"}
+  ]
+}
